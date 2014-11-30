@@ -1,0 +1,55 @@
+<MainLabels>:
+
+	my_output: my_output
+	my_graph: my_graph
+	my_amplitude: my_amplitude
+
+	Button:
+		text: "print"
+		pos: 10, 10
+		size: 100, 45
+		on_press: my_output.text=my_txtInput.text
+
+	Button:
+		text: "plot"
+		pos: 150, 10
+		size: 100, 45
+		on_press: root.plotGraph(my_amplitude.text) 
+
+	Graph:
+		id:my_graph
+		pos: 10, 200
+		size: 470, 300
+		x_grid_label:True
+		y_grid_label:True
+		x_grid:True
+		y_grid:True
+
+	TextInput: 
+		multiline:False 
+		pos:10,100
+		size:200,45 
+		font_size:20 
+		id:my_txtInput 
+
+	TextInput: 
+		text: "5"
+		multiline:False 
+		pos:300,10
+		size:100,45 
+		font_size:20 
+		id:my_amplitude 
+
+	Label: 
+		text:"" 
+		pos:280,100
+		size:200,45
+		font_size:20
+		id:my_output
+		color: 0,0,0,1 #text
+		canvas.before:
+			Color:
+				rgba: 1, 1, 1, 1 # background
+			Rectangle:
+				pos: self.pos
+				size: self.size
