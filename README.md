@@ -7,8 +7,8 @@ Tutorial for this code: http://petrhomolka.com/kivy/
 
 
 
-<Kivy-Presentation>
-Copyright (C) <2014>  <Petr Homolka>
+Kivy-Presentation
+Copyright (C) (2014)  Petr Homolka
 
 Kivy-Presentation is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -23,8 +23,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-<Kivy-Presentation>  Copyright (C) <2014>  <Petr Homolka>
+Kivy-Presentation  Copyright (C) (2014)  Petr Homolka
 
-This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+This program comes with ABSOLUTELY NO WARRANTY; for details type 'show w'.
 This is free software, and you are welcome to redistribute it
-under certain conditions; type `show c' for details.
+under certain conditions; type 'show c' for details.
